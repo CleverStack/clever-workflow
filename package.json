@@ -1,0 +1,33 @@
+{
+    "name": "clever-workflow",
+    "version": "0.0.1",
+    "dependencies": {
+        "q": "~1.0.0",
+        "sequelize": "1.7.0-beta8"
+    },
+    "author": {
+        "name": "Clevertech",
+        "email": "info@clevertech.biz",
+        "web": "http://www.clevertech.biz"
+    },
+    "main": "module.js",
+    "description": "Amazon's Simple Workflow for CleverStack",
+    "license": "BSD-2-Clause",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/CleverStack/clever-workflow.git"
+    },
+    "bugs": {
+        "url": "https://github.com/CleverStack/clever-workflow/issues"
+    },
+    "keywords": [
+        "cleverstack",
+        "cleverstack-module",
+        "cleverstack-modules",
+        "cleverstack-backend"
+    ],
+    "devDependencies": {
+        "chai": "~1.8.1",
+        "mocha": "~1.17.1"
+    }
+}
