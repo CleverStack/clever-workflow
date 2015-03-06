@@ -1,22 +1,22 @@
 {
-    "clever-workflow": {
-        "WorkflowModel": {
-            "default": {
-                "type": {
-                    "values": [ "Job", "Applicant" ],
-                    "defaultValue": "Applicant"
+  "clever-workflow": {
+    "WorkflowModel": {
+      "default": {
+        "type": {
+          "values": [ "Job", "Applicant" ],
+          "default": "Applicant"
 
-                }
-            }
-        },
-        "WorkflowStepsModel": {
-            "default": {
-                "statusType": {
-                    "values": [ "Active", "Hired", "Not-Hired" ],
-                    "defaultValue": "Active"
-                }
-            }
         }
-
+      }
+    },
+    "WorkflowStepsModel": {
+      "default": {
+        "statusType": {
+          "values": [ "Active", "Hired", "Not-Hired" ],
+          "default": "Active"
+        }
+      }
     }
+
+  }
 }

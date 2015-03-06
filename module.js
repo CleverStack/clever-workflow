@@ -1,5 +1,8 @@
-var Module = require( 'classes' ).ModuleClass.extend( {
+var classes = require('classes')
+  , Module  = classes.Module;
 
-} );
+var CleverWorkflow = Module.extend({
 
-module.exports = new Module( 'clever-workflow', injector );
+});
+
+module.exports = CleverWorkflow;
